@@ -66,3 +66,119 @@
    user-select: none;
    line-height: 100vh;
 }
+
+.projects {
+   display: flex;
+   flex-direction: column;
+   gap: 5rem;
+   padding-inline: 5rem;
+}
+
+.projects h2 {
+   font-size: 10vw;
+   cursor: default;
+   user-select: none;
+}
+
+.project {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   gap: 5rem;
+}
+
+.project:nth-child(2n) {
+   flex-direction: row-reverse;
+}
+
+.demo {
+   flex: 1;
+}
+
+.laptop {
+   width: 600px;
+   height: 379px;
+   position: relative;
+}
+
+.laptop--screen {
+   position: absolute;
+   inset: 1.2rem 5rem 4.9rem 4.3rem;
+   overflow: auto;
+}
+
+.laptop--screen::-webkit-scrollbar {
+   display: none;
+}
+
+.laptop--screen img {
+   width: 100%;
+}
+
+.phone {
+   width: 300px;
+   height: 600px;
+   position: relative;
+}
+
+.phone--screen {
+   position: absolute;
+   inset: .9rem 1rem;
+   border-radius: 1.8rem;
+   overflow: auto;
+}
+
+.phone--screen::-webkit-scrollbar {
+   display: none;
+}
+
+.phone--screen img {
+   width: 100%;
+}
+
+.info {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   align-items: center;
+}
+
+.info--title {
+   font-size: 5vw;
+   color: #555;
+}
+
+.info--desc {
+   font-size: 1.25rem;
+   color: #555;
+   text-align: justify;
+   line-height: 2.5rem;
+}
+
+.info--link {
+   position: relative;
+   padding: 10px 20px;
+   border: 2px solid #555;
+   color: #555;
+   text-decoration: none;
+   font-weight: 600;
+   overflow: hidden;
+}
+
+.info--link::after {
+   content: "View Demo";
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: -100%;
+   padding-block: 10px;
+   text-align: center;
+   background-color: #555;
+   color: #111;
+   transition: .5s all ease-in-out;
+}
+
+.info--link:hover::after {
+   left: 0;
+}

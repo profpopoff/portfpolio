@@ -1,0 +1,68 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+   color: #333;
+}
+
+.container {
+   background-color: #111;
+}
+
+.salute {
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+}
+
+.salute--text {
+   flex: 3;
+   font-size: 60vw;
+   cursor: default;
+   user-select: none;
+}
+
+.salute--img {
+   flex: 1;
+   height: 100%;
+   padding-top: 1rem;
+}
+
+.salute--img img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+.name {
+   height: 100vh;
+   background-color: rebeccapurple;
+}
+
+.name h2 {
+   font-size: 15vw;
+   text-align: center;
+   cursor: default;
+   user-select: none;
+   line-height: 100vh;
+}
+
+.job-title {
+   height: 100vh;
+}
+
+.dark {
+   background: url('./assets/images/bg1.png');
+}
+
+.purple {
+   background: rebeccapurple url('./assets/images/bg2.png');
+}
+
+.job-title h2 {
+   font-size: 10vw;
+   cursor: default;
+   user-select: none;
+   line-height: 100vh;
+}

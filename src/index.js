@@ -2,6 +2,13 @@ import './index.html'
 import './index.css'
 
 const boxes = document.querySelector('.boxes')
+const saluteText = document.querySelector(".salute--text")
+const saluteImg = document.querySelector(".salute--img")
+const authorName = document.querySelector(".author-name")
+const jobTitleContainers = document.querySelectorAll(".job-title-container")
+const jobTitles = document.querySelectorAll(".job-title")
+const phones = document.querySelectorAll(".phone")
+const laptop = document.querySelector(".laptop")
 
 const list = [
    0, 1, 2, 3, 41, 42, 43, 44, 82, 83, 123, 124, 125, 126, 164, 165, 166, 167,
@@ -17,10 +24,24 @@ const list = [
    156, 157, 197, 198, 238, 239, 279, 280, 320, 321, 36, 37, 38, 39, 77, 78,
    79, 80, 118, 119, 159, 160, 161, 162, 200, 201, 202, 203, 241, 242, 282,
    283, 284, 285, 323, 324, 325, 326,
-];
+]
 
 for (let i = 0; i < 365; i++) {
    const el = document.createElement('div')
    el.classList = list.includes(i) ? "box active" : "box"
    boxes.appendChild(el)
 }
+
+window.addEventListener("scroll", () => {
+   let offsetY = window.scrollY
+   saluteText.style.transform = `translateY(${offsetY * 0.1}px)`
+   saluteImg.style.transform = `translate(${offsetY * 0.4}px, ${offsetY * 0.7}px)`
+   authorName.style.transform = `translateX(${offsetY * 0.1}px)`
+   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`
+   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * 0.5}px`
+   jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
+   jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`
+   laptop.style.transform = `translateX(calc(240vh - ${offsetY * 0.5}px))`
+   phones[0].style.transform = `translateX(calc(-275vh + ${offsetY * 0.5}px))`
+   phones[1].style.transform = `translateX(calc(360vh - ${offsetY * 0.5}px))`
+})

@@ -229,12 +229,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/person.png */ "./assets/images/person.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/laptop.png */ "./assets/images/laptop.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/digital-project-small.png */ "./assets/images/digital-project-small.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/phone.png */ "./assets/images/phone.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/digital-project-mobile.png */ "./assets/images/digital-project-mobile.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/github.png */ "./assets/images/github.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/icon.png */ "./assets/images/icon.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/person.png */ "./assets/images/person.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/laptop.png */ "./assets/images/laptop.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/roommates.png */ "./assets/images/roommates.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/phone.png */ "./assets/images/phone.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/digital-project.png */ "./assets/images/digital-project.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/arshakir.png */ "./assets/images/arshakir.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/images/github.png */ "./assets/images/github.png"), __webpack_require__.b);
 // Module
 var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
 var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
@@ -242,7 +244,9 @@ var ___HTML_LOADER_REPLACEMENT_2___ = _node_modules_html_loader_dist_runtime_get
 var ___HTML_LOADER_REPLACEMENT_3___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_3___);
 var ___HTML_LOADER_REPLACEMENT_4___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_4___);
 var ___HTML_LOADER_REPLACEMENT_5___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_5___);
-var code = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <title>Portfolio</title>\r\n\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap\"\r\n      rel=\"stylesheet\">\r\n</head>\r\n\r\n<body>\r\n   <main class=\"container\">\r\n      <div class=\"intro\">\r\n         <section class=\"salute\">\r\n            <h1 class=\"salute--text\">Hi</h1>\r\n            <picture class=\"salute--img\">\r\n               <img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"person\">\r\n            </picture>\r\n         </section>\r\n         <section class=\"author\">\r\n            <h2 class=\"author-name\">I'm Aleksei</h2>\r\n         </section>\r\n         <section class=\"job-title-container dark\">\r\n            <h2 class=\"job-title\">a Web Developer</h2>\r\n         </section>\r\n         <section class=\"job-title-container purple\">\r\n            <h2 class=\"job-title\">and here are some of my projects</h2>\r\n         </section>\r\n      </div>\r\n      <div class=\"projects\">\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"laptop\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"laptop\">\r\n                  <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"laptop--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"digital-project-mobile\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Roommates</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"phone\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"phone\">\r\n                  <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"phone--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"digital-project-mobile\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Digital Project</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"phone\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"phone\">\r\n                  <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"phone--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"digital-project-mobile\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Digital Project</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n      </div>\r\n      <div class=\"github\">\r\n         <h2>Want to see all projects?</h2>\r\n         <a href=\"https://github.com/profpopoff\" target=\"_blank\" class=\"github--chart\">\r\n            <div class=\"dates\">\r\n               <span>Jan</span>\r\n               <span>Feb</span>\r\n               <span>Mar</span>\r\n               <span>Apr</span>\r\n               <span>May</span>\r\n               <span>Jun</span>\r\n               <span>Jul</span>\r\n               <span>Agu</span>\r\n               <span>Sep</span>\r\n               <span>Oct</span>\r\n               <span>Nov</span>\r\n               <span>Dec</span>\r\n            </div>\r\n            <div class=\"boxes\"></div>\r\n            <h2>ON GITHUB</h2>\r\n         </a>\r\n         <div class=\"github-mobile\">\r\n            <a href=\"https://github.com/profpopoff\" target=\"_blank\">\r\n               <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"github/\" />\r\n               <h3>/profpopoff</h3>\r\n            </a>\r\n            <h3>Find Me on Github</h3>\r\n         </div>\r\n      </div>\r\n   </main>\r\n</body>\r\n\r\n</html>";
+var ___HTML_LOADER_REPLACEMENT_6___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_6___);
+var ___HTML_LOADER_REPLACEMENT_7___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_7___);
+var code = "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n   <meta charset=\"UTF-8\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <title>Aleksei Ivanov</title>\r\n   <link rel=\"icon\" href=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\">\r\n\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap\"\r\n      rel=\"stylesheet\">\r\n</head>\r\n\r\n<body>\r\n   <main class=\"container\">\r\n      <div class=\"intro\">\r\n         <section class=\"salute\">\r\n            <h1 class=\"salute--text\">Hi</h1>\r\n            <picture class=\"salute--img\">\r\n               <img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"person\">\r\n            </picture>\r\n         </section>\r\n         <section class=\"author\">\r\n            <h2 class=\"author-name\">I'm Aleksei</h2>\r\n         </section>\r\n         <section class=\"job-title-container dark\">\r\n            <h2 class=\"job-title\">a Web Developer</h2>\r\n         </section>\r\n         <section class=\"job-title-container purple\">\r\n            <h2 class=\"job-title\">and here are some of my projects</h2>\r\n         </section>\r\n      </div>\r\n      <div class=\"projects\">\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"laptop\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"laptop\">\r\n                  <a href=\"https://roommates-next-js-6erj.vercel.app\" target=\"_blank\" class=\"laptop--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_3___ + "\" alt=\"roommates\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Roommates</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://roommates-next-js-6erj.vercel.app\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"phone\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_4___ + "\" alt=\"phone\">\r\n                  <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"phone--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_5___ + "\" alt=\"digital-project\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Digital Project</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://profpopoff.github.io/digital-project/\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n         <section class=\"project\">\r\n            <div class=\"demo\">\r\n               <div class=\"laptop\">\r\n                  <img src=\"" + ___HTML_LOADER_REPLACEMENT_2___ + "\" alt=\"laptop\">\r\n                  <a href=\"https://profpopoff.github.io/arshakir/\" target=\"_blank\" class=\"laptop--screen\">\r\n                     <img src=\"" + ___HTML_LOADER_REPLACEMENT_6___ + "\" alt=\"arshakir\">\r\n                  </a>\r\n               </div>\r\n            </div>\r\n            <article class=\"info\">\r\n               <h3 class=\"info--title\">Arshakir</h3>\r\n               <p class=\"info--desc\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolores, quia\r\n                  distinctio quam quod\r\n                  consequatur. Qui maiores dolorem deserunt in illum at animi adipisci magnam quod, saepe cum\r\n                  dignissimos facilis.</p>\r\n               <a href=\"https://profpopoff.github.io/arshakir/\" target=\"_blank\" class=\"info--link\">Learn More</a>\r\n            </article>\r\n         </section>\r\n      </div>\r\n      <div class=\"github\">\r\n         <h2>Want to see all projects?</h2>\r\n         <a href=\"https://github.com/profpopoff\" target=\"_blank\" class=\"github--chart\">\r\n            <div class=\"dates\">\r\n               <span>Jan</span>\r\n               <span>Feb</span>\r\n               <span>Mar</span>\r\n               <span>Apr</span>\r\n               <span>May</span>\r\n               <span>Jun</span>\r\n               <span>Jul</span>\r\n               <span>Agu</span>\r\n               <span>Sep</span>\r\n               <span>Oct</span>\r\n               <span>Nov</span>\r\n               <span>Dec</span>\r\n            </div>\r\n            <div class=\"boxes\"></div>\r\n            <h2>ON GITHUB</h2>\r\n         </a>\r\n         <div class=\"github-mobile\">\r\n            <a href=\"https://github.com/profpopoff\" target=\"_blank\">\r\n               <img src=\"" + ___HTML_LOADER_REPLACEMENT_7___ + "\" alt=\"github/\" />\r\n               <h3>/profpopoff</h3>\r\n            </a>\r\n            <h3>Find Me on Github</h3>\r\n         </div>\r\n      </div>\r\n   </main>\r\n</body>\r\n\r\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
 
@@ -643,6 +647,16 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./assets/images/arshakir.png":
+/*!************************************!*\
+  !*** ./assets/images/arshakir.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/972db818892147f33091.png";
+
+/***/ }),
+
 /***/ "./assets/images/bg1.png":
 /*!*******************************!*\
   !*** ./assets/images/bg1.png ***!
@@ -663,23 +677,13 @@ module.exports = __webpack_require__.p + "assets/947cc44be73766876c71.png";
 
 /***/ }),
 
-/***/ "./assets/images/digital-project-mobile.png":
-/*!**************************************************!*\
-  !*** ./assets/images/digital-project-mobile.png ***!
-  \**************************************************/
+/***/ "./assets/images/digital-project.png":
+/*!*******************************************!*\
+  !*** ./assets/images/digital-project.png ***!
+  \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "assets/eefed9082eafb26a56cf.png";
-
-/***/ }),
-
-/***/ "./assets/images/digital-project-small.png":
-/*!*************************************************!*\
-  !*** ./assets/images/digital-project-small.png ***!
-  \*************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/a51b484705b4ef6f5bbf.png";
+module.exports = __webpack_require__.p + "assets/f6ce372f216579a690a4.png";
 
 /***/ }),
 
@@ -690,6 +694,16 @@ module.exports = __webpack_require__.p + "assets/a51b484705b4ef6f5bbf.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/5326e987ac036b3ad71f.png";
+
+/***/ }),
+
+/***/ "./assets/images/icon.png":
+/*!********************************!*\
+  !*** ./assets/images/icon.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/e9a48a707339ce1ee027.png";
 
 /***/ }),
 
@@ -720,6 +734,16 @@ module.exports = __webpack_require__.p + "assets/9f802fce8b16ceaf164b.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/125beae3cf64c384e974.png";
+
+/***/ }),
+
+/***/ "./assets/images/roommates.png":
+/*!*************************************!*\
+  !*** ./assets/images/roommates.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "assets/f95a60ce6bed0dd43aa4.png";
 
 /***/ })
 
@@ -874,9 +898,8 @@ const saluteImg = document.querySelector(".salute--img");
 const authorName = document.querySelector(".author-name");
 const jobTitleContainers = document.querySelectorAll(".job-title-container");
 const jobTitles = document.querySelectorAll(".job-title");
-// const projectsTitle = document.querySelector(".projects-title")
 const phones = document.querySelectorAll(".phone");
-const laptop = document.querySelector(".laptop");
+const laptops = document.querySelectorAll(".laptop");
 const list = [0, 1, 2, 3, 41, 42, 43, 44, 82, 83, 123, 124, 125, 126, 164, 165, 166, 167, 205, 206, 246, 247, 287, 288, 5, 6, 46, 47, 87, 88, 128, 129, 169, 170, 210, 211, 251, 252, 292, 293, 8, 9, 14, 15, 49, 50, 51, 90, 91, 92, 131, 132, 133, 134, 172, 173, 213, 214, 254, 255, 295, 296, 175, 176, 217, 177, 218, 259, 55, 56, 96, 97, 137, 138, 178, 179, 219, 220, 260, 261, 217, 218, 259, 260, 261, 301, 302, 17, 18, 19, 58, 59, 60, 61, 99, 100, 102, 103, 140, 141, 144, 181, 182, 185, 222, 223, 225, 226, 263, 264, 265, 266, 304, 305, 306, 24, 25, 65, 66, 67, 106, 107, 108, 147, 148, 149, 150, 188, 189, 229, 230, 270, 271, 311, 312, 67, 108, 149, 150, 191, 232, 192, 233, 274, 234, 275, 316, 194, 235, 276, 154, 195, 236, 73, 114, 155, 33, 34, 74, 75, 115, 116, 156, 157, 197, 198, 238, 239, 279, 280, 320, 321, 36, 37, 38, 39, 77, 78, 79, 80, 118, 119, 159, 160, 161, 162, 200, 201, 202, 203, 241, 242, 282, 283, 284, 285, 323, 324, 325, 326];
 for (let i = 0; i < 365; i++) {
   const el = document.createElement('div');
@@ -892,12 +915,12 @@ window.addEventListener("scroll", () => {
   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * .5}px`;
   jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`;
   jobTitles[1].style.transform = `translateY(calc(150vh - ${offsetY * .5}px))`;
-  laptop.style.transform = `translateX(calc(-195vh + ${offsetY * .5}px))`;
+  laptops[0].style.transform = `translateX(calc(-195vh + ${offsetY * .5}px))`;
   phones[0].style.transform = `translateX(calc(285vh - ${offsetY * .5}px))`;
-  phones[1].style.transform = `translateX(calc(-285vh + ${offsetY * .5}px))`;
+  laptops[1].style.transform = `translateX(calc(-300vh + ${offsetY * .5}px))`;
 });
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main.08b328f78bb356963395.js.map
+//# sourceMappingURL=main.c7d378ae2397315d10a8.js.map

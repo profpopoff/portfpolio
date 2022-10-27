@@ -8,7 +8,7 @@ const authorName = document.querySelector(".author-name")
 const jobTitleContainers = document.querySelectorAll(".job-title-container")
 const jobTitles = document.querySelectorAll(".job-title")
 const phones = document.querySelectorAll(".phone")
-const laptop = document.querySelector(".laptop")
+const laptops = document.querySelectorAll(".laptop")
 
 const list = [
    0, 1, 2, 3, 41, 42, 43, 44, 82, 83, 123, 124, 125, 126, 164, 165, 166, 167,
@@ -34,14 +34,14 @@ for (let i = 0; i < 365; i++) {
 
 window.addEventListener("scroll", () => {
    let offsetY = window.scrollY
-   saluteText.style.transform = `translateY(${offsetY * 0.1}px)`
-   saluteImg.style.transform = `translate(${offsetY * 0.4}px, ${offsetY * 0.7}px)`
-   authorName.style.transform = `translateX(calc(-10vh + ${offsetY * 0.1}px))`
-   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`
-   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * 0.5}px`
+   saluteText.style.transform = `translateY(${offsetY * .1}px)`
+   saluteImg.style.transform = `translate(${offsetY * .4}px, ${offsetY * .7}px)`
+   authorName.style.transform = `translateX(calc(-10vh + ${offsetY * .1}px))`
+   jobTitleContainers[0].style.backgroundPositionY = `${offsetY * .5}px`
+   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * .5}px`
    jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
-   jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`
-   laptop.style.transform = `translateX(calc(240vh - ${offsetY * 0.5}px))`
-   phones[0].style.transform = `translateX(calc(-275vh + ${offsetY * 0.5}px))`
-   phones[1].style.transform = `translateX(calc(360vh - ${offsetY * 0.5}px))`
+   jobTitles[1].style.transform = `translateY(calc(150vh - ${offsetY * .5}px))`
+   laptops[0].style.transform = `translateX(calc(-195vh + ${offsetY * .5}px))`
+   phones[0].style.transform = `translateX(calc(285vh - ${offsetY * .5}px))`
+   laptops[1].style.transform = `translateX(calc(-300vh + ${offsetY * .5}px))`
 })

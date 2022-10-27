@@ -5,6 +5,21 @@
    color: #333;
 }
 
+
+body {
+   overflow: overlay;
+}
+
+::-webkit-scrollbar {
+   width: .3vw;
+   height: 3.3vh;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #333;
+   border-radius: .3rem;
+}
+
 .container {
    background-color: #111;
    overflow: hidden;

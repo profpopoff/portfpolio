@@ -66,6 +66,9 @@ body {
 
 .job-title-container {
    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .dark {
@@ -81,7 +84,6 @@ body {
    cursor: default;
    text-align: center;
    user-select: none;
-   line-height: 100vh;
 }
 
 .projects {
@@ -207,9 +209,12 @@ body {
    flex-direction: column;
    align-items: center;
    justify-content: space-around;
+   padding-inline: 2rem;
+   text-align: center;
 }
 
 .github h2 {
+   text-align: center;
    font-size: 6.25rem;
    cursor: default;
    user-select: none;
@@ -255,4 +260,64 @@ body {
 
 .github--chart:hover .active:nth-child(2n) {
    background-color: #063f24;
+}
+
+.github-mobile {
+   display: none;
+}
+
+@media screen and (max-width: 64rem) {
+   .projects {
+      padding-inline: 1rem;
+   }
+
+   .project {
+      flex-direction: column;
+      height: max-content;
+   }
+
+   .project:nth-child(2n) {
+      flex-direction: column;
+   }
+
+   .phone,
+   .laptop {
+      transform: none !important;
+   }
+
+   .github h2 {
+      font-size: 4rem;
+   }
+
+   .github--chart {
+      display: none;
+   }
+
+   .github-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .github-mobile h3 {
+      font-size: 3rem;
+   }
+
+   .github-mobile a {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+   }
+
+   .github-mobile a img {
+      width: 10vw;
+      aspect-ratio: 1;
+   }
+
+   .github-mobile a h3 {
+      font-size: 8vw;
+      color: #777;
+   }
 }

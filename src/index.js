@@ -7,7 +7,6 @@ const saluteImg = document.querySelector(".salute--img")
 const authorName = document.querySelector(".author-name")
 const jobTitleContainers = document.querySelectorAll(".job-title-container")
 const jobTitles = document.querySelectorAll(".job-title")
-const phones = document.querySelectorAll(".phone")
 const laptops = document.querySelectorAll(".laptop")
 
 const list = [
@@ -41,7 +40,7 @@ window.addEventListener("scroll", () => {
    jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * .5}px`
    jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`
    jobTitles[1].style.transform = `translateY(calc(150vh - ${offsetY * .5}px))`
-   laptops[0].style.transform = `translateX(calc(-195vh + ${offsetY * .5}px))`
-   phones[0].style.transform = `translateX(calc(285vh - ${offsetY * .5}px))`
-   laptops[1].style.transform = `translateX(calc(-300vh + ${offsetY * .5}px))`
+   laptops[0].style.transform = `translateX(calc(-200vh + ${offsetY * .5}px))`
+   laptops[1].style.transform = `translateX(calc(250vh - ${offsetY * .5}px))`
+   laptops[2].style.transform = `translateX(calc(-300vh + ${offsetY * .5}px))`
 })

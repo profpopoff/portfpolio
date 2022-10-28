@@ -90,7 +90,7 @@ body {
    display: flex;
    flex-direction: column;
    gap: 5rem;
-   padding-inline: 5rem;
+   padding-inline: clamp(2rem, 5vw, 5rem);
 }
 
 .projects h2 {
@@ -103,7 +103,7 @@ body {
    height: 100vh;
    display: flex;
    align-items: center;
-   gap: 5rem;
+   gap: clamp(1rem, 4vw, 5rem);
 }
 
 .project:nth-child(2n) {
@@ -112,12 +112,15 @@ body {
 
 .demo {
    flex: 1;
+   display: flex;
+   justify-content: center;
 }
 
 .laptop {
    width: 600px;
    height: 379px;
    position: relative;
+   z-index: 2;
 }
 
 .laptop--screen {
@@ -126,8 +129,8 @@ body {
    overflow: auto;
 }
 
-.roommates {
-   overflow: hidden;
+.no-scroll {
+   overflow: hidden !important;
 }
 
 .laptop--screen::-webkit-scrollbar {
@@ -139,36 +142,19 @@ body {
 }
 
 .phone {
-   width: 300px;
-   height: 600px;
-   position: relative;
-}
-
-.phone--screen {
-   position: absolute;
-   inset: .9rem 1rem;
-   border-radius: 1.8rem;
-   overflow: auto;
-}
-
-.phone--screen::-webkit-scrollbar {
    display: none;
-}
-
-.phone--screen img {
-   width: 100%;
 }
 
 .info {
    flex: 1;
    display: flex;
    flex-direction: column;
-   gap: 3rem;
+   gap: clamp(1.5rem, 5vw, 3rem);
    align-items: center;
 }
 
 .info--title {
-   font-size: 5vw;
+   font-size: max(2rem, 5vw);
    color: #555;
 }
 
@@ -272,7 +258,7 @@ body {
 
 @media screen and (max-width: 64rem) {
    .projects {
-      padding-inline: 1rem;
+      padding-top: 2rem;
    }
 
    .project {
@@ -284,7 +270,6 @@ body {
       flex-direction: column;
    }
 
-   .phone,
    .laptop {
       transform: none !important;
    }
@@ -321,7 +306,35 @@ body {
    }
 
    .github-mobile a h3 {
-      font-size: 8vw;
+      font-size: max(2rem, 8vw);
       color: #777;
+   }
+}
+
+@media screen and (max-width: 48rem) {
+   .laptop {
+      display: none;
+   }
+
+   .phone {
+      display: block;
+      width: 300px;
+      height: 600px;
+      position: relative;
+   }
+
+   .phone--screen {
+      position: absolute;
+      inset: .9rem 1rem;
+      border-radius: 1.8rem;
+      overflow: auto;
+   }
+
+   .phone--screen::-webkit-scrollbar {
+      display: none;
+   }
+
+   .phone--screen img {
+      width: 100%;
    }
 }

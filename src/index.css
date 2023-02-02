@@ -139,6 +139,7 @@ body {
 }
 
 .laptop--screen img {
+   display: block;
    width: 100%;
 }
 
@@ -166,6 +167,28 @@ body {
    line-height: 2.5rem;
 }
 
+.info--desc a {
+   color: inherit;
+}
+
+.info--stack {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: .75rem 2rem;
+}
+
+.info--stack a {
+   text-decoration: none;
+   color: rebeccapurple;
+}
+.info--stack a::before {
+   content: "<";
+}
+.info--stack a::after {
+   content: " />";
+}
+
 .info--link {
    position: relative;
    padding: 10px 20px;
@@ -178,7 +201,7 @@ body {
 }
 
 .info--link::after {
-   content: "View Demo";
+   content: "Visit GitHub";
    position: absolute;
    width: 100%;
    top: 0;
@@ -336,6 +359,7 @@ body {
    }
 
    .phone--screen img {
+      display: block;
       width: 100%;
    }
 }

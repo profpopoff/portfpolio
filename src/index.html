@@ -6,7 +6,25 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Aleksei Ivanov</title>
-   <link rel="icon" href="./assets/images/icon.png">
+
+   <!-- Light theme browser icon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/light-mode/apple-touch-icon.png"
+      media="(prefers-color-scheme: light)">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/light-mode/favicon-32x32.png"
+      media="(prefers-color-scheme: light)">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/light-mode/favicon-16x16.png"
+      media="(prefers-color-scheme: light)">
+   <link rel="manifest" href="./assets/icon/light-mode/site.webmanifest" media="(prefers-color-scheme: light)">
+
+   <!-- Dark theme browser icon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/dark-mode/apple-touch-icon.png"
+      media="(prefers-color-scheme: dark)">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/dark-mode/favicon-32x32.png"
+      media="(prefers-color-scheme: dark)">
+   <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/dark-mode/favicon-16x16.png"
+      media="(prefers-color-scheme: dark)">
+   <link rel="manifest" href="./assets/icon/dark-mode/site.webmanifest" media="(prefers-color-scheme: dark)">
+
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +42,13 @@
             </picture>
          </section>
          <section class="author">
-            <h2 class="author-name">I'm Aleksei</h2>
+            <h2 class="author-name">I&rsquo;m Aleksei</h2>
          </section>
          <section class="job-title-container dark">
-            <h2 class="job-title">a Web Developer</h2>
+            <h2 class="job-title">a&nbsp;Web Developer</h2>
          </section>
          <section class="job-title-container purple">
-            <h2 class="job-title">and here are some of my projects</h2>
+            <h2 class="job-title">and here are some of&nbsp;my&nbsp;projects</h2>
          </section>
       </div>
       <div class="projects">
@@ -51,8 +69,16 @@
             </div>
             <article class="info">
                <h3 class="info--title">Erarta</h3>
-               <p class="info--desc">My take on Erarta museum website redesign, inspired by <a href="https://www.buildinamsterdam.com/" target="_blank">Build In Amsterdam</a>. Stack: Next.js, MongoDB and Scss.</p>
-               <a class="info--link" href="https://erarta.vercel.app/" target="_blank">Learn More</a>
+               <p class="info--desc">My&nbsp;take on&nbsp;Erarta museum website redesign, inspired by&nbsp;<a
+                     href="https://www.buildinamsterdam.com/" target="_blank">Build
+                     In&nbsp;Amsterdam</a>.</p>
+               <div class="info--stack">
+                  <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>
+                  <a href="https://nextjs.org/" target="_blank">Next.JS</a>
+                  <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+                  <a href="https://sass-lang.com/" target="_blank">SCSS</a>
+               </div>
+               <a class="info--link" href="https://github.com/profpopoff/Erarta" target="_blank">Learn More</a>
             </article>
          </section>
          <section class="project">
@@ -72,37 +98,50 @@
             </div>
             <article class="info">
                <h3 class="info--title">Roommates</h3>
-               <p class="info--desc">A web app for renting apartments with roommates, built using Next.js, MongoDB,
-                  Redux and
-                  Scss. A fully functioning chat, interactive map and rating system are just some of the
-                  features of this website.</p>
-               <a class="info--link" href="https://roommates-next-js-6erj.vercel.app" target="_blank">Learn More</a>
+               <p class="info--desc">My&nbsp;diploma project: a&nbsp;web app for renting apartments with roommates.
+                  A&nbsp;fully functioning chat, interactive map and rating system are just some of&nbsp;the features
+                  of&nbsp;this website.</p>
+               <div class="info--stack">
+                  <a href="https://nextjs.org/" target="_blank">Next.JS</a>
+                  <a href="https://redux.js.org/" target="_blank">Redux</a>
+                  <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>
+                  <a href="https://socket.io/" target="_blank">Socket.IO</a>
+                  <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>
+                  <a href="https://sass-lang.com/" target="_blank">SCSS</a>
+               </div>
+               <a class="info--link" href="https://github.com/profpopoff/Roommates" target="_blank">Learn More</a>
             </article>
          </section>
          <section class="project">
             <div class="demo">
                <div class="laptop">
                   <img src="./assets/images/laptop.png" alt="laptop">
-                  <a class="laptop--screen" href="https://profpopoff.github.io/Digital-Project/" target="_blank">
-                     <img src="./assets/images/digital-project.png" alt="arshakir">
+                  <a class="laptop--screen" href="https://profpopoff.github.io/Dictionary/" target="_blank">
+                     <img src="./assets/images/dictionary.png" alt="dictionary">
                   </a>
                </div>
                <div class="phone">
                   <img src="./assets/images/phone.png" alt="phone">
-                  <a class="phone--screen" href="https://profpopoff.github.io/Digital-Project/" target="_blank">
-                     <img src="./assets/images/digital-project-mobile.png" alt="digital-project">
+                  <a class="phone--screen" href="https://profpopoff.github.io/Dictionary/" target="_blank">
+                     <img src="./assets/images/dictionary-mobile.png" alt="dictionary">
                   </a>
                </div>
             </div>
             <article class="info">
-               <h3 class="info--title">Digital Project</h3>
-               <p class="info--desc">A simple website of the architectural bureau.</p>
-               <a class="info--link" href="https://profpopoff.github.io/Digital-Project/" target="_blank">Learn More</a>
+               <h3 class="info--title">Dictionary</h3>
+               <p class="info--desc">A&nbsp;frontend mentor challenge: a&nbsp;dictionary web app, build using the <a
+                     href="https://dictionaryapi.dev/" target="_blank">Dictionary API</a>.</p>
+               <div class="info--stack">
+                  <a href="https://vuejs.org/" target="_blank">Vue</a>
+                  <a href="https://ru.wikipedia.org/wiki/REST" target="_blank">REST API</a>
+               </div>
+               <a class="info--link" href="https://github.com/profpopoff/Dictionary" target="_blank">Learn
+                  More</a>
             </article>
          </section>
       </div>
       <div class="github">
-         <h2>Want to see all projects?</h2>
+         <h2>Want to see more projects?</h2>
          <a href="https://github.com/profpopoff" target="_blank" class="github--chart">
             <div class="dates">
                <span>Jan</span>

@@ -44,6 +44,9 @@ body {
    flex: 1;
    height: 100%;
    padding-top: 1rem;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .salute--img img {
@@ -122,12 +125,16 @@ body {
    height: 379px;
    position: relative;
    z-index: 2;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .laptop--screen {
    position: absolute;
    inset: 1.2rem 5rem 4.9rem 4.3rem;
    overflow: auto;
+   /* pointer-events: all; */
 }
 
 .no-scroll {
@@ -145,6 +152,9 @@ body {
 
 .phone {
    display: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .info {
@@ -182,9 +192,11 @@ body {
    text-decoration: none;
    color: rebeccapurple;
 }
+
 .info--stack a::before {
    content: "<";
 }
+
 .info--stack a::after {
    content: " />";
 }
